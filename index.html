@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
 
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
@@ -24,28 +22,10 @@
 
     <link rel="stylesheet" href="css/style.css">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <link rel="stylesheet" href="css/lightgallery.min.css">
-
-
-   <!-- <script>
-      $('a.fancybox').fancybox({
-        padding : 0,
-        openEffect  : 'elastic',
-        'width': 600, //or whatever you want
-        'height': 500,
-        type:"iframe"
-      });
-  </script> -->
   </head>
-  <!-- <script>
-    $('.fancyframe').fancybox({
-    'type':'iframe',
-    'width': 600, //or whatever you want
-    'height': 500
-    });
-  </script>   -->
+
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   
   <div class="site-wrap">
@@ -119,14 +99,11 @@
         </div>
       </div>
       <!-- <div class="photo"> -->
-      <img src="images/josue.png" alt="Image" class="img-face" data-aos="fade">
+      <img  src="images/josue6.png" alt="Image" class="img-face" data-aos="fade">
      <!-- </div> -->
       
     </div>  
 
-    
-
-    
     <div class="site-section" id="services-section">
       <div class="container">
         <div class="row ">
@@ -149,7 +126,7 @@
               <div class="service-number mr-4"><span class="icon-business_center"></span></div>
               <div class="service-about">
                 <h3>Backend Development</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsum error eligendi molestiae eaque quas, ducimus sequi excepturi?</p>
+                <p>Frontend development with React.js, Redux, Context Api, Webpack, Sass, Unit Testing with Jest and Enzyme, APi requests, etc. </p>
               </div>
             </div>
           </div>
@@ -204,8 +181,6 @@
     </div>
 
 
-
-
     <section class="site-section block__62272" id="portfolio-section">
       
 
@@ -220,72 +195,109 @@
         <div id="posts" class="row no-gutter">
 
           <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <button class="btn btn-success btn-lg mrb50 item-wrap" data-iframe="true" id="open-website" data-src="project1.html">
+            <a class="popup-with-form  mrb50 item-wrap" href="#test-form">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/gynecology2.jpg">
+            </a>
+            <!-- form itself -->
+              <form id="test-form" class="mfp-hide white-popup-block">
+                <h1 class="h1Form">GYN WEB</h1>
+                <fieldset style="border:0;">
+                  <p class="Form-pharagraph"> <span class="Form-span"> Description:</span> GYN WEB is a Web app to manage all the clinical hystory of the gynecological patients.</p>
+                  <p class="Form-pharagraph"> <span class="Form-span"> Technologies used:</span> </p>
+                  <ul >
+                    <li>
+                      <p class="Form-pharagraph"> React.js</p>
+                    </li>
+                    <li>
+                      <p class="Form-pharagraph"> Node.js</p>
+                    </li>                  
+                      <li>
+                        <p class="Form-pharagraph"> Context Api</p>
+                      </li>
+                      <li>
+                        <p class="Form-pharagraph"> Material UI</p>
+                      </li>                                          
+                      <li>
+                        <p class="Form-pharagraph"> Mongodb</p>
+                      </li>
+                      <li>
+                        <p class="Form-pharagraph"> AWS</p>
+                      </li>
+                  </ul>
+                  <p class="Form-pharagraph"> <span class="Form-span"> URL Address:</span> <span><a target="_blank" href="https://gynweb.netlify.app/" >https://gynweb.netlify.app/</a> </span>  </p>                  
+                  <p class="Form-pharagraph"> <span class="Form-span"> Frontend repo:</span> <span><a target="_blank" href="https://github.com/josueroque/clinicFront" >https://github.com/josueroque/clinicFront</a> </span>  </p>                  
+                  <p class="Form-pharagraph"> <span class="Form-span"> Backend repo:</span> <span><a target="_blank" href="https://github.com/josueroque/clinic" >https://github.com/josueroque/clinic</a> </span>  </p>                  
+
+                </fieldset>
+              </form>
+          </div>
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a class="popup-with-form  mrb50 item-wrap" href="#test-form">
               <span class="icon-search2"></span>
               <img class="img-fluid" src="images/gynecology.jpg">
-            </button>
-          </div>
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/post_3.jpg" class="item-wrap fancybox">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/post_3.jpg">
-              
-
-              </iframe>
             </a>
+            <!-- form itself -->
+              <form id="test-form" class="mfp-hide white-popup-block">
+                <h1 class="h1Form">Form</h1>
+                <fieldset style="border:0;">
+                  <p>Lightbox has an option to automatically focus on the first input. It's strongly recommended to use <code>inline</code> popup type for lightboxes with form instead of <code>ajax</code> (to keep entered data if the user accidentally refreshed the page).</p>
+                  <ol>
+                    <li>
+                      <label for="name">Name</label>
+                      <input id="name" name="name" type="text" placeholder="Name" required="">
+                    </li>
+                    <li>
+                      <label for="email">Email</label>
+                      <input id="email" name="email" type="email" placeholder="example@domain.com" required="">
+                    </li>
+                    <li> 
+                      <label for="phone">Phone</label>
+                      <input id="phone" name="phone" type="tel" placeholder="Eg. +447500000000" required="">
+                    </li>
+                    <li>
+                      <label for="textarea">Textarea</label><br>
+                      <textarea id="textarea">Try to resize me to see how popup CSS-based resizing works.</textarea>
+                    </li>
+                  </ol>
+                </fieldset>
+              </form>
           </div>
 
-          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/post_4.jpg" class="item-wrap fancybox">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/post_4.jpg">
-            </a>
-          </div>
+          <div id="posts" class="row no-gutter">
 
-          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-
-            <a href="images/post_5.jpg" class="item-wrap fancybox">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/post_5.jpg">
-            </a>
-
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/post_6.jpg" class="item-wrap fancybox">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/post_6.jpg">
-            </a>
-          </div>
-
-          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/post_2.jpg" class="item-wrap fancybox">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/post_2.jpg">
-            </a>
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/post_3.jpg" class="item-wrap fancybox">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/post_3.jpg">
-            </a>
-          </div>
-
-          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/post_4.jpg" class="item-wrap fancybox">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/post_4.jpg">
-            </a>
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/post_6.jpg" class="item-wrap fancybox">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/post_6.jpg">
-            </a>
-          </div>
-
+            <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+              <a class="popup-with-form  mrb50 item-wrap" href="#test-form">
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/gynecology.jpg">
+              </a>
+              <!-- form itself -->
+                <form id="test-form" class="mfp-hide white-popup-block">
+                  <h1 class="h1Form">Form</h1>
+                  <fieldset style="border:0;">
+                    <p>Lightbox has an option to automatically focus on the first input. It's strongly recommended to use <code>inline</code> popup type for lightboxes with form instead of <code>ajax</code> (to keep entered data if the user accidentally refreshed the page).</p>
+                    <ol>
+                      <li>
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" placeholder="Name" required="">
+                      </li>
+                      <li>
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="example@domain.com" required="">
+                      </li>
+                      <li> 
+                        <label for="phone">Phone</label>
+                        <input id="phone" name="phone" type="tel" placeholder="Eg. +447500000000" required="">
+                      </li>
+                      <li>
+                        <label for="textarea">Textarea</label><br>
+                        <textarea id="textarea">Try to resize me to see how popup CSS-based resizing works.</textarea>
+                      </li>
+                    </ol>
+                  </fieldset>
+                </form>
+            </div>
+  
           
         </div>
       </div>
@@ -466,15 +478,33 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>
   <script src="js/aos.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
   <script src="js/isotope.pkgd.min.js"></script>
   <script src="js/main.js"></script>
-  <script src="js/lightgallery.js"></script>
+  <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <!-- Magnific Popup core JS file -->
+  <script src="js/jquery.magnific-popup.js"></script>
   <script>
-    $('#open-website').lightGallery({
-      selector: 'this'
-    });
+      $(document).ready(function() {
+        $('.popup-with-form').magnificPopup({
+          type: 'inline',
+          preloader: false,
+          focus: '#name',
+
+          // When elemened is focused, some mobile browsers in some cases zoom in
+          // It looks not nice, so we disable it:
+          callbacks: {
+            beforeOpen: function() {
+              if($(window).width() < 700) {
+                this.st.focus = false;
+              } else {
+                this.st.focus = '#name';
+              }
+            }
+          }
+        });
+      });
   </script>
 
   </body>

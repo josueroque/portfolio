@@ -98,6 +98,35 @@ body:after {
 
 .site-section {
   padding: 2.5em 0; }
+
+  
+  #test-form{
+    width: 75vw;
+    height:40vw ;
+    margin-left: 10vw;
+    background-color:white;
+    opacity:80% ;
+  }
+
+  #test-form li{
+  margin-left: 5vw;
+  line-height: 50%;
+  
+  }
+  .h1Form{
+    text-align: center !important;
+  }
+
+ .Form-pharagraph{
+   margin-left: 2vw;
+   /* text-align: justify ; */
+ }
+
+ .Form-span{
+   color: blue;
+ }
+
+
   @media (min-width: 768px) {
     .site-section {
       padding: 7em 0; } }
@@ -593,7 +622,7 @@ body:after {
     font-family: "Arbutus Slab", serif; }
   .site-blocks-cover .img-face {
     position: absolute;
-    right: -5%;
+    right: 15%;
     bottom: 0;
     z-index: 1;
     max-width: 950px; }
