@@ -100,21 +100,50 @@ body:after {
   padding: 2.5em 0; }
 
   
-  #test-form{
-    width: 75vw;
-    height:40vw ;
+  .test-form{
+    width: 88vw;
+    height:42vw !important;
     margin-left: 10vw;
     background-color:white;
-    opacity:80% ;
+    opacity:90% ;
+    background-image: "images/clinica.png";
+    background-size: 75%;
   }
 
+  .Form-container{
+    position: absolute;
+    margin-top: 4vw;    
+  }
+  
+  .Form-a{
+    
+    text-decoration-color: black !important;
+  }
+  
   #test-form li{
-  margin-left: 5vw;
+  margin-left: 2vw;
   line-height: 50%;
   
   }
+
+  .item{
+  margin-top: -5vw;  
+  /* border-style: groove !important; */
+  border-radius: 2vw !important;
+  border-color: gray;
+
+  } 
   .h1Form{
     text-align: center !important;
+    color: black;
+    margin-top: 0vw !important;
+  }
+
+  .Form-iframe{
+    margin-left: 50vw;
+    border-style: none;
+    /* position: absolute; */
+    margin-top: -23vw;
   }
 
  .Form-pharagraph{
@@ -123,9 +152,19 @@ body:after {
  }
 
  .Form-span{
-   color: blue;
+   color: black;
+   font-style: italic;
  }
 
+ .Portfolio-title{
+   text-align: center;
+ }
+
+ .second-image{
+   margin-top: -5vw !important;
+   border-radius: 50% !important;
+   border-style: initial;
+ }
 
   @media (min-width: 768px) {
     .site-section {
@@ -623,6 +662,7 @@ body:after {
   .site-blocks-cover .img-face {
     position: absolute;
     right: 15%;
+    /* margin-top: -10vw !important; */
     bottom: 0;
     z-index: 1;
     max-width: 950px; }
