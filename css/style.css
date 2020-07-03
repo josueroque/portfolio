@@ -102,12 +102,13 @@ body:after {
   
   .test-form{
     width: 88vw;
-    height:42vw !important;
+    height:100vh !important;
+    /* height:42vw !important; */
     margin-left: 10vw;
     background-color:white;
     opacity:90% ;
-    background-image: "images/clinica.png";
-    background-size: 75%;
+    /* background-image: "images/clinica.png"; */
+    background-size: 100%;
   }
 
   .Form-container{
@@ -120,7 +121,7 @@ body:after {
     text-decoration-color: black !important;
   }
   
-  #test-form li{
+  .test-form li{
   margin-left: 2vw;
   line-height: 50%;
   
